@@ -42,7 +42,7 @@ jobs:
       - run:
           name: Download and Unzip eSignerCKA Setup
           command: |
-            Invoke-WebRequest -OutFile eSigner_CKA_Setup.zip "https://github.com/SSLcom/eSignerCKA/releases/download/v1.0.6/SSL.COM-eSigner-CKA_1.0.6.zip"
+            Invoke-WebRequest -OutFile eSigner_CKA_Setup.zip "https://github.com/SSLcom/eSignerCKA/releases/download/v1.0.7/SSL.COM-eSigner-CKA_1.0.7.zip"
             Expand-Archive -Force eSigner_CKA_Setup.zip
             Remove-Item eSigner_CKA_Setup.zip
             Move-Item -Destination "eSigner_CKA_Installer.exe" -Path "eSigner_CKA_*\*.exe"
@@ -100,7 +100,7 @@ jobs:
       - run:
           name: Download and Unzip eSignerCKA Setup
           command: |
-            Invoke-WebRequest -OutFile eSigner_CKA_Setup.zip "https://github.com/SSLcom/eSignerCKA/releases/download/v1.0.6/SSL.COM-eSigner-CKA_1.0.6.zip"
+            Invoke-WebRequest -OutFile eSigner_CKA_Setup.zip "https://github.com/SSLcom/eSignerCKA/releases/download/v1.0.7/SSL.COM-eSigner-CKA_1.0.7.zip"
             Expand-Archive -Force eSigner_CKA_Setup.zip
             Remove-Item eSigner_CKA_Setup.zip
             Move-Item -Destination "eSigner_CKA_Installer.exe" -Path "eSigner_CKA_*\*.exe"
@@ -174,7 +174,7 @@ jobs:
       - run:
           name: Download and Unzip eSignerCKA Setup
           command: |
-            Invoke-WebRequest -OutFile eSigner_CKA_Setup.zip "https://github.com/SSLcom/eSignerCKA/releases/download/v1.0.6/SSL.COM-eSigner-CKA_1.0.6.zip"
+            Invoke-WebRequest -OutFile eSigner_CKA_Setup.zip "https://github.com/SSLcom/eSignerCKA/releases/download/v1.0.7/SSL.COM-eSigner-CKA_1.0.7.zip"
             Expand-Archive -Force eSigner_CKA_Setup.zip
             Remove-Item eSigner_CKA_Setup.zip
             Move-Item -Destination "eSigner_CKA_Installer.exe" -Path "eSigner_CKA_*\*.exe"

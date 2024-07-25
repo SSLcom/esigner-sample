@@ -9,7 +9,7 @@ $MasterKeyFile = "C:\eSignerCKA\master.key"
 $INSTALL_DIR="C:\eSignerCKA"
 
 # Download and Extract eSignerCKA
-Invoke-WebRequest -OutFile eSigner_CKA_Setup.zip "https://www.ssl.com/download/ssl-com-esigner-cka"
+Invoke-WebRequest -OutFile eSigner_CKA_Setup.zip "https://github.com/SSLcom/eSignerCKA/releases/download/v1.0.7/SSL.COM-eSigner-CKA_1.0.7.zip"
 Expand-Archive -Force eSigner_CKA_Setup.zip
 Remove-Item "eSigner_CKA_Setup.zip"
 If (Test-Path "eSigner_CKA_Installer.exe") {
